@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "dealls_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "dealls_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "timezone": "+07:00"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "dealls_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "timezone": "+07:00"
+  }
+}
