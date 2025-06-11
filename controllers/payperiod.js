@@ -37,7 +37,10 @@ async function createPayPeriod(req, res) {
             createdBy: userData.username,
             updatedBy: userData.username
         });
-        res.status(201).json({ message: "Attendance payroll period successfully registered" });
+        res.status(201).json({
+            message: "Attendance payroll period successfully registered",
+            details: payPeriodData
+        });
     } catch (err) {
         res.status(500), json(err);
     }
